@@ -4,6 +4,6 @@ create table goal_achievement_list (
   regist_day timestamp not null,
   target_date date not null,
   title varchar(200) not null,
-  goal_achievement int,
-  primary ket(num)
+  goal_achievement int not null,
+  primary key(num)
 );
